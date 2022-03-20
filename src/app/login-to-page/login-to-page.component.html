@@ -1,0 +1,21 @@
+<div class="auth-page">
+    <div class="auth-page__content-block">
+        <div class="auth-page__content-wrapper">
+            <div class="auth-page__group">
+                <div>
+                    <h4 class="auth-page__group-title">Welcome!</h4>
+                    <p class="auth-page__group-sub-title">Login to your account</p>
+                </div>
+                <form class="form" [formGroup]="profileForm">
+                    <div class="form-actions">
+                        <button class="form-actions__login" mat-raised-button color="primary" type="submit"
+                            (click)="onSubmit()">Login</button>
+                    </div>
+                </form>
+            </div>
+
+
+        </div>
+    </div>
+ 
+</div>
